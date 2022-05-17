@@ -1,0 +1,395 @@
+* {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+header {
+}
+
+#wrap {
+  width: 100%;
+}
+.logo img {
+  width: 140px;
+  height: 90px;
+  margin: 40px 100px 20px;
+}
+
+/*상단 메뉴 부분*/
+
+.mainbox {
+  position: relative;
+}
+
+.top_menu {
+  position: absolute;
+  display: flex;
+}
+
+.top_menu > li {
+  padding-right: 10px;
+  flex-direction: row;
+}
+
+.top_menu li a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.top_menu li:hover .shop_title {
+  display: block;
+}
+.top_menu li:hover .function_title {
+  display: block;
+}
+
+.shop_title {
+  position: absolute;
+  left: 88px;
+  width: 80px;
+  padding: 7px;
+  padding-top: 8px;
+  margin-top: 0;
+  display: none;
+  z-index: 999;
+}
+
+.shop_title li {
+  background-color: #fff;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.shop_title li a {
+  color: #000;
+}
+
+.function_title {
+  position: absolute;
+  text-align: center;
+  left: 150px;
+  width: 150px;
+  padding: 8px;
+  display: none;
+  z-index: 999;
+}
+
+.function_title li {
+  background-color: #fff;
+  padding-bottom: 5px;
+}
+
+.function_title li a {
+  color: #000;
+}
+
+/**************************/
+
+.spring {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+
+.spring span {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+/*content*/
+
+.write_title {
+  text-align: center;
+  margin: 80px;
+  font-size: 18px;
+}
+
+.write_title span {
+  font-size: 17px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.write_title a {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  color: #000;
+}
+
+.write_title:hover span a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#product_img {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.product_01 img {
+  margin-left: 25px;
+  object-fit: cover;
+  width: 920px;
+  height: 595px;
+}
+
+.product_01 span {
+  word-spacing: 5px;
+  position: absolute;
+  left: 370px;
+  top: 270px;
+  padding: 7px;
+  background-color: #fff;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.product_02 img {
+  position: absolute;
+  object-fit: cover;
+  right: 20px;
+  top: 0px;
+  width: 540px;
+  height: 290px;
+}
+
+.product_02 span {
+  position: absolute;
+  right: 210px;
+  top: 130px;
+  background-color: #fff;
+  padding: 7px;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.product_03 img {
+  position: absolute;
+  width: 540px;
+  height: 290px;
+  object-fit: cover;
+  right: 20px;
+  top: 305px;
+}
+.product_03 span {
+  position: absolute;
+  right: 105px;
+  bottom: 125px;
+  background-color: #fff;
+  padding: 7px;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn button {
+  display: block;
+  margin: auto;
+  padding: 15px 35px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.68);
+  background-color: transparent;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.seasonal {
+  display: inline-block;
+  margin-left: 101px;
+  margin-top: 70px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.seasonal p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+}
+
+.slider {
+  display: inline-block;
+  margin-left: 75%;
+}
+
+.slider button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#product_list {
+  margin-top: 10px;
+  margin-left: 70px;
+  overflow: hidden;
+  width: 1340px; /* width: 3960px; */
+}
+
+.product_list {
+  transition: 0.5s;
+}
+
+#product_list ul {
+  display: flex;
+}
+
+#product_list img {
+  width: 420px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+#product_list a {
+  font-size: 13px;
+}
+
+.pic {
+  margin-top: 100px;
+  position: relative;
+}
+
+.pic ul {
+  display: flex;
+  flex-direction: row;
+}
+.pic img {
+  width: 744px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.pic :nth-child(1) {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.img_two :nth-child(1) a {
+  background-color: #fff;
+  position: absolute;
+  bottom: 200px;
+  left: 265px;
+  padding: 7px;
+  padding: 7px;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+
+.img_two :nth-child(2) a {
+  background-color: #fff;
+  padding: 7px;
+  position: absolute;
+  bottom: 200px;
+  right: 215px;
+  padding: 7px;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+}
+.pic:nth-child(2) {
+  margin-right: 20px;
+}
+.banner img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  text-align: center;
+}
+
+footer h2 {
+  padding: 40px;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+footer p {
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+footer input {
+  width: 230px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+footer button {
+  width: 130px;
+  height: 44px;
+  border: 2px solid #000;
+}
+
+.privacy {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 40px 0px 30px;
+}
+
+.about ul {
+  text-align: center;
+  font-size: 13px;
+  width: 440px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-right: 40px;
+}
+
+.about ul li:hover a {
+  color: rgba(0, 0, 0, 0.3);
+}
