@@ -104,7 +104,7 @@ header {
 }
 
 .banner img {
-  width: 100%;
+  width: 1517px;
   height: 900px;
   object-fit: cover;
 }
@@ -153,6 +153,7 @@ header {
 #product_img {
   position: relative;
   margin-bottom: 5%;
+  width: 1519px;
 }
 
 .product_01 img {
@@ -222,13 +223,16 @@ header {
   line-height: 1.8;
 }
 
+.sea_list {
+  width: 1519px;
+}
 .btn {
-  width: 100%;
+  display: block;
+  text-align: center;
+  width: 1519px;
 }
 
 .btn button {
-  display: block;
-  margin: auto;
   padding: 15px 35px;
   border-width: 2px;
   border-color: rgba(0, 0, 0, 0.68);
@@ -326,10 +330,8 @@ header {
   letter-spacing: 0.04em;
   line-height: 1.8;
 }
-
 .img_two :nth-child(2) a {
   background-color: #fff;
-  padding: 7px;
   position: absolute;
   bottom: 200px;
   right: 215px;
@@ -344,9 +346,8 @@ header {
 .pic:nth-child(2) {
   margin-right: 20px;
 }
-
 footer {
-  width: 100%;
+  width: 1519px;
   background-color: rgba(0, 0, 0, 0.1);
   margin-top: 5px;
   text-align: center;
